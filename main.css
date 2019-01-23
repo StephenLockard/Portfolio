@@ -1,6 +1,7 @@
 body {
+    background-color: #9BAE51;
     padding-top: 54px;
-    color: #868e96;
+    color: #170D4E;
   }
   
   @media (min-width: 992px) {
@@ -18,7 +19,6 @@ body {
   h6 {
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
   }
   
   h1 {
@@ -43,13 +43,14 @@ body {
     text-transform: uppercase;
     font-weight: 500;
     font-size: 1.5rem;
+    color: #4C437E;
   }
   
   .social-icons a {
     display: inline-block;
     height: 3.5rem;
     width: 3.5rem;
-    background-color: #495057;
+    background-color: #16103B;
     color: #fff !important;
     border-radius: 100%;
     text-align: center;
@@ -63,7 +64,7 @@ body {
   }
   
   .social-icons a:hover {
-    background-color: #BD5D38;
+    background-color: #322B57;
   }
   
   .dev-icons {
@@ -71,7 +72,7 @@ body {
   }
   
   .dev-icons .list-inline-item i:hover {
-    color: #BD5D38;
+    color: #44520D;
   }
   
   #sideNav .navbar-nav .nav-item .nav-link {
@@ -81,7 +82,7 @@ body {
   }
   
   #sideNav .navbar-toggler:focus {
-    outline-color: #d48a6e;
+    outline-color: #44520D;
   }
   
   @media (min-width: 992px) {
@@ -167,19 +168,19 @@ body {
   }
   
   .bg-primary {
-    background-color: #BD5D38 !important;
+    background-color: #235245 !important;
   }
   
   .text-primary {
-    color: #BD5D38 !important;
+    color: #322B57 !important;
   }
   
   a {
-    color: #BD5D38;
+    color: #322B57;
   }
   
   a:hover, a:focus, a:active {
-    color: #824027;
+    color: #44520D;
   }
 
   #CarouselOne {
@@ -188,6 +189,7 @@ body {
   }
   
   #BackgroundOne{
-      background-color: #343a40;
+      background-color: #377765;
+      text-align: center;
   }
   
