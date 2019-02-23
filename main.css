@@ -3,7 +3,7 @@
       padding-top: 0;
       padding-left: 17rem;
       background-color: #cccccc;
-      background-image: radial-gradient(rgba(27, 26, 26, 0.904), rgb(62, 98, 139));
+      background-image: radial-gradient(rgba(27, 26, 26, 0.904), rgb(62, 98, 139 ));
       /*background-image: url(./Assets/fancycrave-252351-unsplash.jpg);*/
       -webkit-background-size: cover;
       -moz-background-size: cover;
@@ -58,7 +58,7 @@
     text-align: center;
     font-size: 1.5rem;
     line-height: 3.5rem;
-    margin-right: 1rem;
+    margin-right: 5rem;
   }
   
   .social-icons a:last-child {
@@ -147,6 +147,7 @@
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
     max-width: 75rem;
+    min-height: 60vh;
   }
   
   section.resume-section .resume-item .resume-date {
@@ -297,8 +298,10 @@ body {
 
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
-  height: 0;
+  box-sizing: content-box;
+  border-style: inset;
+  border-width: 10px;
+  display: block;
   overflow: visible;
 }
 
