@@ -3252,6 +3252,7 @@ fieldset:disabled a.btn {
 .btn-outline-warning {
   color: #F39C12;
   border-color: #F39C12;
+  margin: 5px;
 }
 
 .btn-outline-warning:hover {
